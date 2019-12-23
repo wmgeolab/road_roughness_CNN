@@ -3,16 +3,12 @@
 # VERSION 0.1
 # LAST EDIT: 2019-11-04
 #
-# Use this script to read an NETcdf spatial data file,
-# convert the NETcdf dataset to a GeoTIFF, and
-# visualize the GeoTIFF in QGIS
+# Use this script to read a tif spatial data file,
+# convert the tif dataset to a png
 #
-# This script assumes that your NETcdf file is located
+# This script assumes that your tif file is located
 # in a directory defined by an environment variable "DS_WORKSPACE"
 # or else is in your home directory
-#
-# You may run this file from a Python command line using:
-# `exec(open("nc_TogeoTiff_oforiaddae.py").read())`
 #
 #@Author Yaw Ofori-Addae
 ###############################################################################
