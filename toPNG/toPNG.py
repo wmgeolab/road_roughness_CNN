@@ -44,7 +44,7 @@ nc_data = gdal.Open(modis_path, gdal.GA_ReadOnly)
 
 
 # Create an PNG output
-out_file = os.path.splitext(modis_file)[0] + '_png'
+out_file = os.path.splitext(modis_file)[0] + '.png'
 out_path = os.path.join(work_dir, out_file)
 gdal.GetDriverByName("PNG").CreateCopy(out_path, nc_data, 0)
 
